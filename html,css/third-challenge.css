@@ -1,0 +1,66 @@
+@import "reset.css";
+html,
+body {
+  padding: 0px;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+h1 {
+  margin: 3vh 0;
+  padding: 0px;
+  display: inline-block;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 40px;
+}
+.big {
+  height: 42vh;
+  width: 100vw;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+.big-color {
+  display: inline-block;
+  border: 7px solid rgb(255, 255, 255);
+  height: 38vh;
+  width: 12vw;
+  position: relative;
+  top: 7px;
+  left: 550px;
+  margin: 0px 10px;
+}
+.big-color_firstdiv {
+  height: 5%;
+  width: 100%;
+}
+.big-color_seconddiv {
+  height: 65%;
+  width: 100%;
+}
+.big-color_span {
+  display: flex;
+  align-items: center;
+  height: 15%;
+  border: none;
+  background-color: white;
+}
+.big-color-first:nth-child(1) > div {
+  background-color: tomato;
+}
+.big-color-first:nth-child(2) > div {
+  background-color: teal;
+}
+.big-color-second:nth-child(1) > div {
+  background-color: Burlywood;
+}
+.big-color-second:nth-child(2) > div {
+  background-color: Thistle;
+}

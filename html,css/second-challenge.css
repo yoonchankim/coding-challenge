@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6347;
+}
+.in-middle-div,
+.middle-div {
+  background-color: #f5deb3;
+}
+.middle-div {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.in-middle-div {
+  height: 100px;
+  background-color: #008080;
+}
+.middle-div_little {
+  width: 100px;
+}
+.middle-div_big {
+  width: 340px;
+  border: dashed 3px white;
+}

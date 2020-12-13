@@ -179,7 +179,7 @@ body {
 }
 .player i {
   color: #fcfcfc;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 .player-writing {
   margin-left: 20px;
@@ -291,8 +291,12 @@ body {
   color: white;
   background-color: #222222;
   box-shadow: 0px 0px 20px -9px #3712da;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.play-buttons-center i {
+  position: absolute;
+  left: 19.5px;
 }

@@ -23,9 +23,10 @@ h1 {
 .big {
   height: 42vh;
   width: 100vw;
-  position: relative;
+  position: absolute;
   padding: 0px;
   margin: 0px;
+  display:block;
 }
 .big-color {
   display: inline-block;

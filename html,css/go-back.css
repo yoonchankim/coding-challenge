@@ -1,0 +1,17 @@
+body{
+    position: relative;
+}
+.go-back{
+    position:absolute;
+    top:20px;
+    left:20px;
+    text-decoration:none;
+    color: teal;
+}
+.go-back:hover{
+    text-decoration:underline;
+}
+.go-back_span{
+    font-size:20px;
+    font-weight: 500;
+}

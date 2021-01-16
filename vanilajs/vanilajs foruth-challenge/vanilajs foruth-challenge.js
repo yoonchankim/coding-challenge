@@ -4,10 +4,13 @@ function saveName(text) {
 }
 function localstorage() {
   const val= selectCountry.options[selectCountry.selectedIndex].value;
-  console.log(val);
   saveName(val);
 }
 function init() {
-  selectCountry.addEventListener("change", localstorage);
+  const rcountry=localStorage.getItem("country");
+  if(rcountry!==null){
+    selectCountry.value=rcountry;
+    selectCountry.addEventListener("change", localstorage);
+  }
 }
 init();

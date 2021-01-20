@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="vanilajs sixth-challenge.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <h2>Generate a number between 0 and 100</h2>
+    <form>
+      <datalist id="tickmarks">
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+      </datalist>
+      <input type="range" max="200" min="0" list="tickmarks" class="range" />
+    </form>
+    <form class="submit-form">
+      <h3>Guess the number:</h3>
+      <input type="number" max="100" min="0" class="number" />
+      <input type="submit" value="play!" class="submit" />
+    </form>
+    <div class="div">
+        <span class="r1"></span>
+        <span class="r2"></span>
+    </div>
+    <script src="vanilajs sixth-challenge.js"></script>
+</body>
+</html>
